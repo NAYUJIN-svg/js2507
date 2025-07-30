@@ -33,11 +33,11 @@ console.log(smile);
 // 웃음표시 스티커//
 
 // \141 은 8진수 141 = 1*8제곱 + 4*8 + 1*1 = 97 (ASCII 'a')
-console.log('\141');
+console.log('\0x141');
 // \101 은 8진수 101 = 65 (ASCII 'A')
-console.log('\101'); //출력:A
+console.log('\0x101'); //출력:A
 // \012 은 8진수 012 = 10 (newline)
-console.log('Line\012Line2');
+console.log('Line\0x012Line2');
 //출력:
 //Line1
 //Line2
