@@ -8,12 +8,22 @@
     <style>
         #container {
             text-align: center;
+            
         }
 
         table,
         tr,
         td {
             border: 1px solid black;
+            padding : 20px
+            
+        }
+        .collapsed {
+            border-collapse: collapse;
+            margin: 1px auto;
+        }
+        td,th {
+            padding:50px
         }
     </style>
 </head>
@@ -21,26 +31,37 @@
 <body>
     <div id="container">
         <h1>자바스크립트 과제방</h1>
-        <table>
+        <table class="collapsed">
             <tbody>
+
                 <tr>
-                    <td>day01_0724_(변수형_typeof_자료형)</td>
-                    <td><a href="./index1.html">0724</a></td>
+                    <th>day01_0724_(변수형_typeof_자료형_특수기호)</th>
+                    <td colspan="5"><a href="./index1.html">0724</a></td>
+                    
                 </tr>
-                <tr>
-                    <td>day02_0725_산술연산자</td>
+
+
+
+                <tr >
+                    <th>day02_0725_(산술연산자)</th>
                     <td><a href="./index2.html">0725</a></td>
+                    <th>day02_0725_(console.log)</th>
+                    <td><a href="./console.log.html">0725_2</a></td>
+                    <th>day02_0725_(innerHTML)</th>
+                    <td><a href="./innerHTML.html">0725_3</a></td>
                 </tr>
+
                 <tr>
-                    <td>day03_0728_할당연산자</td>
+                    <th>day03_0728_(할당연산자)</th>
                     <td><a href="./index3.html">0728</a></td>
+                    <th>day03_0728_(외부js)</th>
+                    <td><a href="./outerjs.html">0728_2</a></td>
+                    <th>day03_0728_(비교연산자)</th>
+                    <td><a href="./index4.html">0728_3</a></td>
                 </tr>
             </tbody>
         </table>
     </div>
 </body>
+
 </html>
-
-
-
-

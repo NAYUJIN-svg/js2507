@@ -34,3 +34,6 @@ d.getElementById("result8").innerHTML = `<b>결과는 ${result}</b>, 변수는 <
 // 후행--(num04)
 result = num04-- //구현부
 d.getElementById("result9").innerHTML = `<b>결과는 ${result}</b>, 변수는 <i>${num04}</i>` //출력부
+
+
+
