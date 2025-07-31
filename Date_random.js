@@ -12,4 +12,5 @@ const randomTime = new Date(
     randomSecond
 );
 
-console.log("오늘의 무작위 시각:", randomTime.toLocaleString());
+
+document.getElementById("randomtime").innerHTML =`오늘의 무작위 시각:  ${randomTime.toLocaleString()}`;
