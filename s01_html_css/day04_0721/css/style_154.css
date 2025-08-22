@@ -1,0 +1,8 @@
+span {
+    background-color: chartreuse;
+    color: brown;
+    margin: 10px;
+    display: block;
+    
+    padding: 50px; 
+}

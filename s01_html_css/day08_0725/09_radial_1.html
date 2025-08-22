@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>원형 그라데이션</title>
+    <style>
+        div {
+            width: 500px;
+            height: 300px;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        /* do it 타원형으로 흰,노,빨 로바뀌는 그라데이션.grad1스타일만들기*/
+        .grad1 {
+            background: red;
+            background: radial-gradient(white, yellow, red);
+            /*모양을지정하지않으면 타원형*/
+        }
+
+        /* do it 원형으로 흰,노,빨로 바뀌는 그라데이션 .grad2스타일만들기*/
+        .grad2 {
+            background: red;
+            background: radial-gradient(circle, white, yellow, red);
+            /*원형*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grad1"></div>
+    <div class="grad2"></div>
+</body>
+
+</html>s

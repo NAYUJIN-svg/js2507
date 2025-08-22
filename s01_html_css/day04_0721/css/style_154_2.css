@@ -1,0 +1,155 @@
+/* style_154.css 또는 style_154_2.css에 붙여넣기 */
+
+body {
+  font-family: '맑은 고딕', Arial, sans-serif;
+  background: #fafafa;
+  color: #222;
+  margin: 0;
+  padding: 40px 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #e45d32;
+  letter-spacing: 2px;
+}
+
+form {
+  max-width: 430px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 18px 0 rgba(0,0,0,0.08);
+  padding: 28px 28px 18px 28px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin-bottom: 18px;
+}
+
+legend {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e45d32;
+  margin-bottom: 12px;
+  padding-bottom: 4px;
+  display: block;
+  letter-spacing: 1.5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+label {
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 3px;
+  font-size: 0.97rem;
+  letter-spacing: 0.5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid #ececec;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fafafa;
+  transition: border-color 0.2s;
+  outline: none;
+  box-sizing: border-box;
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #e45d32;
+  background: #fff;
+}
+
+input[readonly] {
+  background: #f6f6f6;
+  color: #888;
+}
+
+small {
+  color: #999;
+  font-size: 0.92rem;
+  margin-left: 3px;
+}
+
+div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 11px 24px;
+  font-size: 1.05rem;
+  border: none;
+  border-radius: 8px;
+  background: #e45d32;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.18s;
+  box-shadow: 0 2px 10px 0 rgba(228,93,50,0.06);
+}
+
+input[type="reset"] {
+  background: #eee;
+  color: #e45d32;
+  font-weight: normal;
+  border: 1px solid #e45d32;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: #c94818;
+}
+
+input[type="reset"]:hover,
+input[type="reset"]:focus {
+  background: #f7e6e0;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px 0;
+  }
+  form {
+    padding: 14px 7px 12px 7px;
+    border-radius: 8px;
+  }
+  h1 {
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+  }
+  fieldset {
+    margin-bottom: 10px;
+  }
+}

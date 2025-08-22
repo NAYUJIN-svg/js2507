@@ -1,0 +1,16 @@
+body {
+    background-color : rgb(119, 90, 105);
+}
+
+h1 {
+    color : rgb(28, 28, 97);
+    margin-left : 20px;
+}
+
+#my_id{
+    color: aquamarine;
+}
+.my_class{
+    color: red;
+    border: 1px solid red;
+} 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>콘솔에서 결과확인</h1>
+
+    <script>
+        console.log(Number('123'));
+        console.log(Number('123ABC'));
+        
+        console.log(parseInt('123')); //정수그대로//
+        console.log(parseInt('123.45'));///\\실수를 정수로 변환//
+        console.log(parseInt('123ABC'));///////ABC문자열을 빼고 123만//
+
+        console.log(parseFloat('123')); //실수그대로//
+        console.log(parseFloat('123.45')); //실수//
+        console.log(parseFloat('123ABC')); //문자열뺴고실수만//
+
+        console.log(String(123));
+        console.log(String(true));
+
+        console.log(Boolean(1)); //자료형 변환 함수 (논리형) 정수1이있음 true//
+        console.log(Boolean(0)); //정수인데 0이다 false//
+        console.log(Boolean('ABC')); //''안에 string (문자) 있다. true//
+        console.log(Boolean('')); //''안에 아무것도없다. false.//
+        
+    </script>
+
+</body>
+
+</html>
